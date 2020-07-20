@@ -25,27 +25,34 @@ h2{ text-decoration: underline cornflowerblue;
     font-size: xx-large;
 }
 
-#main-bio{
+#main-bio,
+#bio-image,
+#contact-info{
     float: left;
 }
 
+#main-bio{
+    width: 70%;
+}
+
 #bio-image{
-    float:left;
     max-width: 200px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-#contact-info{
-    float: right;
+ #contact-info{ width:30%;  
+    
 }
 
 
-    /* Nake all links red */
+    /* Make all links red */
  a {
     color: red;
  }   
 
 h3 { font-size: 22px;
+    
+    
 }
 
 ul{
